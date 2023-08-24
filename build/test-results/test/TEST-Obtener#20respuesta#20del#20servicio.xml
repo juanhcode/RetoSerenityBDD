@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Obtener respuesta del servicio" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-24T07:28:24" hostname="DESKTOP-MMKLV47" time="5.014">
+  <properties/>
+  <testcase name="Obtener respuesta existosa" classname="Obtener respuesta del servicio" time="5.014"/>
+  <system-out><![CDATA[200
+HTTP/1.1 200 OK
+Date: Thu, 24 Aug 2023 07:28:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 419
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YHtbKNBk1C6OxtUNoBwPb8x7Vy8peTeBo%2FC5EN%2Fp%2F%2FfE0%2FVEZPsSBKhDCEF9Jqpqy7RiAJnpOMdrFQcrzdRtZuIK1Wl%2FMhkpHlyMzCb88zRCkRiqEx8Oc0ShdA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7fb9e0fabddb334c-MIA
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+io.restassured.internal.RestAssuredResponseImpl@4c13ca07
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Obtener respuesta existosa
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
