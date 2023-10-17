@@ -12,5 +12,6 @@ import org.junit.runner.RunWith;
         glue = "co.com.greyd.stepdefinitions.realizarlogin",
         snippets = SnippetType.CAMELCASE
 )
+//Comentario
 public class RealizarLogin {
 }
